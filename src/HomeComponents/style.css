@@ -1,0 +1,12 @@
+.contextDiv {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px auto;
+    border: 1px solid gray;
+    color: white;
+    background-color: black;
+    max-width: max-content;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
