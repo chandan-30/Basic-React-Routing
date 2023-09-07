@@ -10,7 +10,7 @@ export default function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" exact Component={Home} />
-        <Route path="/dashboard" exact Component={Dashboard} />
+        <Route path="/dashboard/:name" exact Component={Dashboard} />
         <Route path="/about" exact Component={About} />
       </Routes>
     </div>
