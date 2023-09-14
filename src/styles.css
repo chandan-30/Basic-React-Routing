@@ -12,3 +12,8 @@ ul li {
   margin: 10px;
   font-size: large;
 }
+
+button {
+  margin: 10px;
+  min-width: 100px;
+}
