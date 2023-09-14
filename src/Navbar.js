@@ -13,6 +13,9 @@ const Navbar = () => {
         <Link to="/about">
           <li>About</li>
         </Link>
+        <Link to="/redux">
+          <li>Redux</li>
+        </Link>
       </ul>
     </>
   );
