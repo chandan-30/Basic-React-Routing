@@ -16,6 +16,9 @@ const Navbar = () => {
         <Link to="/redux">
           <li>Redux</li>
         </Link>
+        <Link to="/express">
+          <li>Express API</li>
+        </Link>
       </ul>
     </>
   );
