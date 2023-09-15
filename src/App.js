@@ -6,6 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import myContext from "./context";
 import Redux from "./Redux";
+import Express from "./Express";
 export default function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/dashboard/:name" exact Component={Dashboard} />
           <Route path="/about" exact Component={About} />
           <Route path="/redux" exact Component={Redux} />
+          <Route path="/express" exact Component={Express} />
         </Routes>
       </myContext.Provider>
     </div>
